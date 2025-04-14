@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSO Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .profile {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .profile img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #ddd;
+            margin-right: 20px;
+        }
+        .profile-info h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .profile-info p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .business {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            text-align: center;
+        }
+        .business h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .business button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .business button:hover {
+            background-color: #0056b3;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .section h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .card button {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .card button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="" alt="Profile Picture">
+            <div class="profile-info">
+                <h2>Kevin Hizkia Hamonangan Bakkara</h2>
+                <p>1230123170138 | kevinbakkara@students.undip.ac.id</p>
+                <p>Fakultas Ekonomika dan Bisnis (FEB), Departemen Akuntansi</p>
+            </div>
+        </div>
+
+        <!-- Business Section -->
+        <div class="business">
+            <h3>BISNIS</h3>
+            <p>Undip Comment</p>
+            <button>Kunjungi</button>
+        </div>
+
+        <!-- News Section -->
+        <div class="section">
+            <h3>NEWS</h3>
+            <div class="grid">
+                <div class="card">
+                    <p>HOT</p>
+                    <p>All pop-up news here</p>
+                    <button>Lihat</button>
+                </div>
+                <div class="card">
+                    <p>UNDIP WEEKLY</p>
+                    <p>Desember Vol. 5</p>
+                    <button>Baca</button>
+                </div>
+                <div class="card">
+                    <p>NEWSLETTER</p>
+                    <button>Baca</button>
+                </div>
+                <div class="card">
+                    <p>ANNUAL REPORT</p>
+                    <button>Baca</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fasilitas Section -->
+        <div class="section">
+            <h3>FASILITAS</h3>
+            <div class="grid">
+                <div class="card">
+                    <p>RADIO</p>
+                    <p>87.7 PRIMA UNDIP</p>
+                    <button>Dengar</button>
+                </div>
+                <div class="card">
+                    <p>GOOGLE PLAY</p>
+                    <button>Buka</button>
+                </div>
+                <div class="card">
+                    <p>E-MAIL</p>
+                    <p>(7 email Outlook, belum dibaca)</p>
+                    <button>Buka</button>
+                </div>
+                <div class="card">
+                    <p>OFFICE 365</p>
+                    <button>Buka</button>
+                </div>
+                <div class="card">
+                    <p>ONEDRIVE</p>
+                    <p>Penyimpanan online</p>
+                    <button>Buka</button>
+                </div>
+                <div class="card">
+                    <p>TEAMS</p>
+                    <button>Buka</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
