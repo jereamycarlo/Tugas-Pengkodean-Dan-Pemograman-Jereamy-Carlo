@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Keuangan</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f7fa;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #28a745;
+        }
+        .header p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .section h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #28a745;
+            display: inline-block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f7fa;
+            font-weight: bold;
+        }
+        .total {
+            font-weight: bold;
+        }
+        .subtotal {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>TUGAS PENGKODEAN DAN PEMROGRAMAN</h1>
+            <p>NAMA: Kevin Hizkia Hamonangan Bakkara</p>
+            <p>NIM: 1230123170138</p>
+        </div>
+
+        <!-- Laporan Keuangan Section -->
+        <div class="section">
+            <h2>LAPORAN KEUANGAN</h2>
+
+            <!-- PT XXX Laporan Laba Rugi -->
+            <h3>PT XXX</h3>
+            <p>Laporan Laba Rugi</p>
+            <p>31 Desember</p>
+            <table>
+                <tr>
+                    <th>Pendapatan Usaha</th>
+                    <th>Keterangan</th>
+                    <th>Jumlah (Rp)</th>
+                </tr>
+                <tr>
+                    <td>Harga Pokok Penjualan</td>
+                    <td></td>
+                    <td>500,000,000</td>
+                </tr>
+                <tr>
+                    <td>Laba Kotor</td>
+                    <td></td>
+                    <td>200,000,000</td>
+                </tr>
+                <tr>
+                    <td>Biaya Operasional</td>
+                    <td></td>
+                    <td>(50,000,000)</td>
+                </tr>
+                <tr>
+                    <td>Biaya Lain-lain</td>
+                    <td></td>
+                    <td>(10,000,000)</td>
+                </tr>
+                <tr class="total">
+                    <td>LABA BERSIH</td>
+                    <td></td>
+                    <td>140,000,000</td>
+                </tr>
+            </table>
+
+            <!-- PT XXX Laporan Posisi Keuangan -->
+            <h3>PT XXX</h3>
+            <p>Laporan Posisi Keuangan</p>
+            <p>31 Desember</p>
+            <table>
+                <tr>
+                    <th>Aset</th>
+                    <th>Keterangan</th>
+                    <th>Jumlah (Rp)</th>
+                </tr>
+                <tr class="subtotal">
+                    <td>Aset Lancar</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Kas</td>
+                    <td></td>
+                    <td>100,000,000</td>
+                </tr>
+                <tr>
+                    <td>Piutang Usaha</td>
+                    <td></td>
+                    <td>50,000,000</td>
+                </tr>
+                <tr>
+                    <td>Persediaan</td>
+                    <td></td>
+                    <td>50,000,000</td>
+                </tr>
+                <tr class="total">
+                    <td>TOTAL ASET</td>
+                    <td></td>
+                    <td>200,000,000</td>
+                </tr>
+                <tr class="subtotal">
+                    <td>Liabilitas</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Utang Usaha</td>
+                    <td></td>
+                    <td>40,000,000</td>
+                </tr>
+                <tr>
+                    <td>Utang Bank</td>
+                    <td></td>
+                    <td>20,000,000</td>
+                </tr>
+                <tr class="total">
+                    <td>TOTAL LIABILITAS</td>
+                    <td></td>
+                    <td>60,000,000</td>
+                </tr>
+                <tr class="subtotal">
+                    <td>Ekuitas</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Modal Awal</td>
+                    <td></td>
+                    <td>100,000,000</td>
+                </tr>
+                <tr>
+                    <td>Laba Ditahan</td>
+                    <td></td>
+                    <td>40,000,000</td>
+                </tr>
+                <tr class="total">
+                    <td>TOTAL EKUITAS</td>
+                    <td></td>
+                    <td>140,000,000</td>
+                </tr>
+            </table>
+
+            <!-- PT XXX Laporan Arus Kas -->
+            <h3>PT XXX</h3>
+            <p>Laporan Arus Kas</p>
+            <p>31 Desember</p>
+            <table>
+                <tr>
+                    <th>Aktivitas Operasi</th>
+                    <th>Keterangan</th>
+                    <th>Jumlah (Rp)</th>
+                </tr>
+                <tr>
+                    <td>Penerimaan dari Pelanggan</td>
+                    <td></td>
+                    <td>400,000,000</td>
+                </tr>
+                <tr>
+                    <td>Pembayaran ke Pemasok</td>
+                    <td></td>
+                    <td>(300,000,000)</td>
+                </tr>
+                <tr>
+                    <td>Arus Kas dari Operasi</td>
+                    <td></td>
+                    <td>100,000,000</td>
+                </tr>
+                <tr class="subtotal">
+                    <td>Aktivitas Investasi</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Pembelian Peralatan</td>
+                    <td></td>
+                    <td>(50,000,000)</td>
+                </tr>
+                <tr>
+                    <td>Arus Kas dari Investasi</td>
+                    <td></td>
+                    <td>(50,000,000)</td>
+                </tr>
+                <tr class="subtotal">
+                    <td>Aktivitas Pendanaan</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Penerimaan Dividen</td>
+                    <td></td>
+                    <td>20,000,000</td>
+                </tr>
+                <tr>
+                    <td>Arus Kas dari Pendanaan</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+                <tr class="total">
+                    <td>KENAIKAN/PENURUNAN KAS</td>
+                    <td></td>
+                    <td>110,000,000</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
