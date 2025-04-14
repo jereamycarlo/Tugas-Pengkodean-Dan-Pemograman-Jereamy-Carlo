@@ -1,1 +1,0 @@
-# Tugas-Pengkodean-Dan-Pemograman-Jereamy-Carlo
